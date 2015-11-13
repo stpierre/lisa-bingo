@@ -1,0 +1,16 @@
+table.bingocard, tr.bingorow, td.bingocell {
+    border: 1px solid black;
+}
+
+td.bingocell {
+    width: 20%;
+    text-align: center;
+    line-height: 300%
+}
+
+span.bingotext {
+}
+
+td.clicked {
+    background-color: #999999;
+}
