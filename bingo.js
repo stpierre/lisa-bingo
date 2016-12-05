@@ -86,7 +86,7 @@ function setPermalink() {
 function populate(clicked) {
     $.getJSON("categories.json", function(json) {
         data = shuffle(json);
-        var table = "";
+        var table = "<thead class=\"bingohead\"><tr><td colspan=\"5\">LISA BINGO</td></tr></thead>";
         for (var row = 1; row < 6; row++) {
             var rid = "row" + row;
             table += "<tr class=\"bingorow\" id=\"" + rid + "\">";

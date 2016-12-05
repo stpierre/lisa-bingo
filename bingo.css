@@ -1,11 +1,33 @@
-table.bingocard, tr.bingorow, td.bingocell {
-    border: 1px solid black;
+thead.bingohead {
+    background-color: #ffca00;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-weight: bold;
+    font-stretch: ultra-expanded;
+    letter-spacing: 20px;
+    padding: 10px 0 10px 0;
+}
+
+table.bingocard {
+    border-spacing: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table.bingocard, thead.bingohead {
+    border: 5px solid #ffca00;
+}
+
+tr.bingorow, td.bingocell {
+    border: 1px solid #ffca00;
 }
 
 td.bingocell {
     width: 20%;
     text-align: center;
-    line-height: 300%
+    line-height: 300%;
+    padding: 0 5px 0 5px;
 }
 
 span.bingotext {
